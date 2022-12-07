@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgCab{
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+}
+body{
+    background-color: rgb(56,59,57);
+}
+.masthead {
+    height: 40vh;
+    min-height: 150px;
+    background-image: url('../imagenes/fondoBanner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.ServT{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 3px 10px rgb(0, 0, 0);
+    font-size: 140px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;  
+}
+
+/* Carruseles */
+.carrusel{
+    background-color: rgb(59, 59, 59);
+}
+.carrusel-In{ 
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.carrusel-itemIn{
+    height: 30rem;
+}
+.carrusel-Hist{
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.carrusel-itemHist{
+    height: 400px;
+}
+.carrusel-Exp{
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.carrusel-itemExp{
+    height: 30rem;
+}
+#historiaC{
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.carrusel{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    padding: 10px 20% 0px 20%;
+}
+.HistoriaS [class*="col"] {
+    padding: 0;
+}
+.HistoriaS [class*="row"] {
+    margin: 0;
+}
+.cajasServicio [class*="col"] {
+    padding: 0;
+}
+.cajasServicio [class*="row"] {
+    margin: 0;
+}
+.HistoriaS{
+    margin-top: 30px;
+    background-color: rgb(59, 59, 59);
+}
+.colInicio img{
+    height: 400px;
+}
+.colInicio p{
+    color: white;
+    margin: 0 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.colInicio h3{
+    color: white;
+    margin: 0 50px;
+}
+.colInicio h2{
+    padding-top: 20px;
+}
+.colInicio button{
+
+    color: white;
+    margin-top: 30px;
+    border-radius: 0;
+}
+.colInicio button:hover{
+    color: white;
+    background-color: rgb(124, 124, 124);
+}
+.colHist img{
+    height: 400px;
+}
+.colHist h2{
+    padding-top: 20px;
+}
+.colHist p{
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+.colServ{
+    height: 670px;
+}
+.colServ2{
+    height: 300px;
+}
+.colServ3{
+    height: 1150px;
+}
+
+.colServ p{
+    color: white;
+    font-size: 15px;
+    height: 670px;
+    padding: 20px;
+    text-align: justify;
+}
+.colServ2 p{
+    color: white;
+    height: 300px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+.oServ{
+    color: white;
+    height: 1150px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+.ocultarT{
+    display: none;
+}
+.tipoServ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    background-image: url(../imagenes/derechoCivil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tipoServ2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(../imagenes/angulo-vista-rascacielos_1359-1105.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tipoServ3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1150px;
+    background-image: url(../imagenes/otrosServicios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cajasServicio{
+    margin-top: 30px;
+    background-color: rgb(56,56,56);
+}
+.valprin{
+    padding: 20px;
+    text-align: justify;
+    color: white;
+}
+#secHistoria{
+    margin-bottom: 40px;
+}
+#pHistoria{
+    padding: 0;
+}
+#inicioT{
+    padding: 0px;
+    font-size: 6vh;
+    text-shadow: 7px 5px 0px rgb(0, 0, 0);
+    text-align: left;
+    margin: 10px;
+}
+.caja-texto{
+    width: 100%;
+}
+
+.h2Text{
+    color: white;
+    margin: 20px;
+    padding: 10px;    
+    text-align: center;
+}
+#h2T{
+    font-size: 5vh;
+}
+.separador{
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: rgb(56,56,56);
+    box-shadow: 0 0 10px black;
+}
+.sep{
+    margin: 20px;
+}
+.cajas{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.btnContacto{
+    margin: auto;
+    text-align: center;
+    margin: 50px;
+}
+.btnContacto button{
+    width: 30%;
+    background-color: gray;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+.servicios{
+    margin: 0 15% 30px 15%;
+}
+.pinfo{
+    display: inline;
+    margin: auto;
+    color: rgb(241, 241, 255);
+    font-weight: bold;
+    margin: 20px;
+    background-color: rgba(180, 180, 180, 0.795);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+.cajasE{
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0 0 5px black;
+}
+.cajasE:last-child{
+    padding-bottom: 50px;
+}
+#imgE{
+    box-shadow: 0 5px 10px black;
+}
+.ocultarH2{
+    padding: 0;
+}
+.bordePp{
+    padding: 40px;
+}
+.secCont{
+    background-color: rgb(59, 59, 59);
+    margin-bottom: 40px;
+}
+.contContacto{
+    color: white;
+}
+.colContacto{
+    padding: 20px;
+}
+.cajaContacto{
+    text-align: center;
+}
+.formTop{
+    text-align: center;
+    padding-top: 30px;
+}
+.formTop h3{
+    text-align: center;
+    font-weight: bold;
+}
+.formTop h6{
+    text-align: center;
+    font-weight: inherit;
+}
+.formCont button{
+    margin: auto;
+    width: 60%;
+    display: block;
+    text-align: center;
+}
+.form-group{
+    display: inline;
+   
+    padding: 5%;
+}
+.contact-form input{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    color: black;
+}
+.contact-form textarea{
+    width: 60%;
+    margin: auto;
+}
+.contact-form input::placeholder{
+    color: black;
+}
+.contact-form textarea::placeholder{
+    color: black;
+}
+/*Main*/
+
+/*Pie de Pagina*/
+
+#piePagina{
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: rgb(59, 59, 59);
+    font-size: 20px;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbarPie a{
+    padding: 10px;
+    color: rgb(184, 84, 84);
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbarPie a:hover{
+    color: rgb(0, 0, 0);
+    transition: all .5s ease;
+}
+.copy{
+    padding: 20px;
+}
+.redes{
+    padding-top: 10px;
+}
+.rItems{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 150%;
+}
+.rItems:hover{
+    color: black;
+    transition: all .5s ease;
+}
+/*Pie de Pagina*/
+
+
+@media (max-width: 1000px) {
+    .ServT{
+        font-size: 100px;
+        padding-top: 10px;
+    }
+    .colServ2 p{
+        font-size: 12px;
+    }
+    .colServ p{
+        font-size: 12px;
+    }
+    .oServ{
+        font-size: 12px;
+    }
+    .oServ h3{
+        font-size: 15px;
+    }
+    .colServ{
+        height: 600px;
+    }
+    .tipoServ{
+        height: 600px;
+    }
+    .colServ3{
+        height: 1050px;
+    }
+    .tipoServ3{
+        height: 1050px;
+    }
+}
+@media (max-width: 767px) {
+    .ServT{
+        transition: all 1s;
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .ocultarT{
+        display:grid;
+        text-align: center;
+    }
+    .tipoServ{
+        display: none;
+    }
+    .tipoServ2{
+        display: none;
+    }
+    .tipoServ3{
+        display: none;
+    }
+    .colServ p{
+        font-size: 10px;
+
+    }
+    .colServ2 p{
+        font-size: 10px;
+    }
+    .oServ{
+        font-size: 10px;
+    }
+    .oServ h3{
+        font-size: 12px;
+    }
+    .colServ:first-child{
+        height: 0px;
+    }
+    .colServ2:nth-child(2n){
+        height: 0px;
+    }
+    .colServ3:nth-child(1n){
+        height: 0px;
+    }
+    .colServ3:nth-child(2n){
+        height: 900px;
+    }
+    .colServ:nth-child(2n){
+        height: 500px;
+    }
+    .colServ2:nth-child(1n){
+        padding-top: 30px;
+    }
+}
+@media (max-width: 575px) {
+    .ServT{
+        transition: all 1s;
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #h2T{
+        font-size: 30px;
+    }
+    .ocultarT{
+        display:grid;
+        text-align: center;
+    }
+    .tipoServ{
+        display: none;
+    }
+    .tipoServ2{
+        display: none;
+    }
+    .tipoServ3{
+        display: none;
+    }
+    .colServ p{
+        font-size: 10px;
+
+    }
+    .colServ2 p{
+        font-size: 10px;
+    }
+    .oServ{
+        font-size: 10px;
+    }
+    .oServ h3{
+        font-size: 12px;
+    }
+    .colServ:first-child{
+        height: 0px;
+    }
+    .colServ2:nth-child(2n){
+        height: 0px;
+    }
+    .colServ3:nth-child(1n){
+        height: 0px;
+    }
+    .colServ3:nth-child(2n){
+        height: 1000px;
+    }
+    .colServ:nth-child(2n){
+        height: 700px;
+    }
+    .btnContacto button{
+        font-size: 15px;
+    }
+    .carrusel-In{ 
+        height: 20rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-itemIn{
+        height: 20rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-Exp{
+        height: 20rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-itemExp{
+        height: 20rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel{
+        height: 21.5rem;
+        transition: all .5s ease-in;
+    }
+    .formTop{
+        text-align: center;
+        padding-top: 80px;
+    }
+    .formTop h3{
+        font-size: 20px;
+    }
+    .formTop h6{
+        font-size: 12px;
+    }
+    .formCont button{
+        margin: auto;
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .formCont input{
+        width: 80%;
+    }
+    .formCont textarea{
+        width: 80%;
+    }
+    input{
+        height: 32px;
+    }
+    .contact-form input::placeholder{
+        font-size: 14px;
+    }
+    .contact-form textarea::placeholder{
+        font-size: 14px;
+    }
+}
